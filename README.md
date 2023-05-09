@@ -19,13 +19,6 @@ Django poll app is a full featured polling app. You have to register in this app
 <h2>To use admin panel you need to create superuser using this command </h2>
 <code>python manage.py createsuperuser</code>
 
-<h2>To Create some dummy text data for your app follow the step below:</h2>
-<code>pip install faker</code>
-<code>python manage.py shell</code>
-<code>import seeder</code>
-<code>seeder.seed_all(30)</code>
-<p>Here 30 is a number of entry. You can use it as your own</p>
-
 <h2> To run the program in local server use the following command </h2>
 <code>python manage.py runserver</code>
 
